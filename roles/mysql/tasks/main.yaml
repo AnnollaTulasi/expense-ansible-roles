@@ -1,4 +1,4 @@
-  - name: Install python packages
+- name: Install python packages
   ansible.builtin.pip:
     name: "{{ item }}"
     executable: pip3.9
